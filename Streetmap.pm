@@ -1,7 +1,5 @@
 package WWW::Map::UK::Streetmap;
 
-package Streetmap;
-
 use 5.006;
 use strict;
 use warnings;
@@ -11,7 +9,7 @@ use LWP::UserAgent;
 
 use vars qw ($VERSION);
 
-$VERSION = '0.01';
+$VERSION = '0.01.1';
 
 =head1 NAME
 
