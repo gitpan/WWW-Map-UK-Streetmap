@@ -1,0 +1,32 @@
+WWW::Map::UK::Streetmap
+
+DESCRIPTION
+
+This module can take varied location data, specifically Latitude and
+Longitude references, OS X and Y co-ordinates, Landranger location
+codes, postcodes or existing Streetmap URLs, and return the
+complementary location data, or a URL pointing to a map on the
+L<http://www.streetmap.co.uk> website.
+
+INSTALL
+
+The standard install process should work fine:
+
+perl Makefile.PL
+make
+make test
+make install (as root)
+
+REQUIREMENTS
+
+You need LWP::UserAgent
+
+AUTHOR
+
+Simon Batistoni <simon@hitherto.net>
+
+COPYRIGHT
+
+This software is copyright(c) 2002 Simon Batistoni. It is free
+software and can be used under the same terms as perl, i.e. either the
+GNU Public Licence or the Artistic License
