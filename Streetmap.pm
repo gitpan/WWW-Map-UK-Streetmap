@@ -9,7 +9,7 @@ use LWP::UserAgent;
 
 use vars qw ($VERSION);
 
-$VERSION = '0.01.1';
+$VERSION = '0.02';
 
 =head1 NAME
 
@@ -33,8 +33,7 @@ www.streetmap.co.uk
   my %os_location = $streetmap->get_location(os_x => '525688',
                                              os_y => '181069');
 
-  # get location by WGS84 latitude and longitude (World Geodetic
-  # System)
+  # get location by WGS84 latitude and longitude (World Geodetic  # System)
 
   my %wgs_location = $streetmap->get_location(wgs_lat  => '51.514572',
                                               wgs_long => '-0.190067');
@@ -353,8 +352,6 @@ None. OO Interface only.
 LWP::UserAgent
 
 =head1 TODO
-
-Proper tests.
 
 Caching. The module will be able to cache locations its seen before to
 a text file, or possibly a database (mysql initially, I expect). This

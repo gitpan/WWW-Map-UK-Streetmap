@@ -1,5 +1,8 @@
 Revision history for Perl extension WWW::Map::UK::Streetmap.
 
+0.02  Mon Sep 02 23:34:15 2002
+        - added test suite
+
 0.01  Thu Aug 29 00:43:11 2002
 	- original version
 
